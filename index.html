@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="fullpage">
+        <div class="section s1">
+
+            <div class="slide">
+                <h1>the first slide</h1>
+            </div>
+            <div class="slide">
+                <h1>the first slide</h1>
+            </div>
+            <div class="slide">
+                <h1>the first slide</h1>
+            </div>
+        </div>
+        <div class="section s2">
+            <h1>The section Section</h1>
+        </div>
+        <div class="section s3">
+            <h1>The third Section</h1>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js"></script>
+    <script>
+        new fullpage('#fullpage', {
+            //options here
+            autoScrolling: true,
+            scrollHorizontally: true,
+            navigation: true,
+            anchor: ["section1", "section2", "section3"],
+            navigationTooltips: ['Home', "Store", "About us"],
+            showActiveTooltip: true,
+            scrollingSpeed: 3000,
+            controlArrows: false,
+            slidesNavigation: true,
+            slidesNavPosition: 'top',
+        });
+    </script>
+</body>
+
+</html>

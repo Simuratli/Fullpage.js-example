@@ -1,0 +1,46 @@
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.s1 {
+  background-image: url(../img/wall1.jpg);
+  background-size: cover;
+}
+
+.s1 h1 {
+  font-size: 4em;
+  text-align: right;
+  margin-right: 2em;
+  color: white;
+}
+
+.s2 {
+  background-image: url(../img/wall2.jpg);
+  background-size: cover;
+}
+
+.s2 h1 {
+  font-size: 4em;
+  text-align: left;
+  margin-left: 2em;
+  color: white;
+}
+
+.s3 {
+  background-image: url(../img/wall3.jpg);
+  background-size: cover;
+}
+
+.s3 h1 {
+  font-size: 4em;
+  text-align: center;
+  color: white;
+}
+
+span {
+  background-color: white !important;
+}
+/*# sourceMappingURL=main.css.map */
